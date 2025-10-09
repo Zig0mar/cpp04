@@ -5,7 +5,7 @@ Animal::Animal(): _type("Animal"){
 }
 
 Animal::~Animal(){
-    std::cout << "Animal destructor called" << std::endl;
+    std::cout << "Animal destructor called" << std::endl << std::endl;
 }
 
 Animal & Animal::operator=(const Animal & other){

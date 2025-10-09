@@ -13,6 +13,7 @@ Cat::~Cat(){
 
 Cat & Cat::operator=(const Cat & other){
     _type = other._type;
+    _brain = other._brain;
     return (*this);
 }
 

@@ -13,6 +13,7 @@ Dog::~Dog(){
 
 Dog & Dog::operator=(const Dog & other){
     _type = other._type;
+    _brain = other._brain;
     return (*this);
 }
 

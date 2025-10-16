@@ -18,7 +18,7 @@ int main()
 
     Cat chat;
     Cat chat2;
-
+        
     chat2 = chat;
 
     return 0;
